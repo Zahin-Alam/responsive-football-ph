@@ -47,7 +47,8 @@ h2#First-head {
     padding-top: 13px;
     padding-bottom: 10px;
 }
-.fa-arrow-right{
+
+.fa-arrow-right {
     padding-left: 8px;
     padding-right: 10px;
 }
@@ -77,8 +78,8 @@ h2#First-head {
 .card {
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     width: 330px;
-    height: 474px;
-    
+    height: 474px
+
 }
 
 .player-info {
@@ -91,62 +92,133 @@ h2#First-head {
     grid-gap: 30px;
     margin-left: 180px;
     margin-top: 70px;
-    
+
 }
+
 /* section 2 end */
 
 /* section 3 start */
-.highlights{
+.highlights {
     display: flex;
     justify-content: center;
     margin-top: 224px;
-    
+
 }
 
 
-.highlights-img img{
+.highlights-img img {
     width: 567px;
     height: 427px;
     padding-left: 60px;
 }
-#highlights-head{
+
+#highlights-head {
     font-weight: 700;
     font-size: 48px;
 }
-.highlights-info{
+
+.highlights-info {
     width: 480px;
     height: 309px;
-    
+
 }
-.highlights-details{
+
+.highlights-details {
     padding-bottom: 24px;
 }
 
 /* section 3 ends */
 
+/* extra */
 
+.winning{
+    display: flex;
+}
+.video{
+margin-top: 55px;
+    margin-left: 155px;
+}
+.winning-info {
+    margin-top: 110px;
+    margin-left: 55px;
+}
+#win{
+    color: blue;
+    text-align: center;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
 /* section 4 starts */
-.last-container{
+.last-container {
     padding-top: 158px;
     padding-left: 475px;
 }
 
-.logo img{
+.logo img {
     width: 483px;
     height: 110px;
 }
-.fab{
+
+.fab {
     color: gray;
     padding: 14px;
 }
-.social-links{
+
+.social-links {
     margin-right: 416px;
     display: flex;
     justify-content: center;
 }
-.footer{
+
+.footer {
     font-weight: 400;
 }
-.foot-head{
+
+.foot-head {
     margin-left: 142px;
+}
+
+/* Animation and Transition */
+
+.card:hover {
+    transform: scale(1.20);
+    transition: transform 2s;
+}
+
+
+/* Media Queries */
+
+/* Mobile Devices */
+
+@media only screen and (max-width:688px) {
+.container{
+    background-color: #2D25A0;
+    
+    height: 695px;
+
+}
+.head{
+ align-items: flex-start;
+    flex-direction: column;
+}
+#First-head{
+    font-size: 36px;
+    
+}
+.head-img img{
+    width: 329px;
+    height: 259px;
+}
+.head-link {
+    width: 500px;
+    height: 44px;
+}
+
+
+#section-2, #section-3, #section-4{
+    display: none;
+} 
+
 }
