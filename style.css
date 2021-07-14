@@ -193,32 +193,5 @@ margin-top: 55px;
 /* Mobile Devices */
 
 @media only screen and (max-width:688px) {
-.container{
-    background-color: #2D25A0;
-    
-    height: 695px;
-
-}
-.head{
- align-items: flex-start;
-    flex-direction: column;
-}
-#First-head{
-    font-size: 36px;
-    
-}
-.head-img img{
-    width: 329px;
-    height: 259px;
-}
-.head-link {
-    width: 500px;
-    height: 44px;
-}
-
-
-#section-2, #section-3, #section-4{
-    display: none;
-} 
 
 }
