@@ -1,0 +1,152 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+/* Header Style */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+#First-head {
+    color: white;
+    font-size: 60px;
+}
+
+h2#First-head {
+    width: 486px;
+    height: 230px;
+    padding-bottom: 27px;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 90px;
+}
+
+.head-img img {
+    width: 556px;
+    height: 438px;
+}
+
+.container {
+    background-color: #2D25A0;
+}
+
+.head-info {
+    width: 36%;
+}
+
+.head-link {
+    background-color: #E02C6D;
+
+    padding-right: 23px;
+    padding-left: 23px;
+    padding-top: 13px;
+    padding-bottom: 10px;
+}
+.fa-arrow-right{
+    padding-left: 8px;
+    padding-right: 10px;
+}
+
+.head-link a {
+    text-decoration: none;
+    color: white;
+
+
+}
+
+.fa-arrow-right {
+    color: white;
+}
+
+/* Section 2  start*/
+#section-2 {
+    width: 1050px;
+}
+
+.card-img img {
+    width: 300px;
+    height: 256px;
+    padding: 15px 15px 16px 15px;
+}
+
+.card {
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    width: 330px;
+    height: 474px;
+    
+}
+
+.player-info {
+    padding: 0px 15px 33px 15px;
+}
+
+.player-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    margin-left: 180px;
+    margin-top: 70px;
+    
+}
+/* section 2 end */
+
+/* section 3 start */
+.highlights{
+    display: flex;
+    justify-content: center;
+    margin-top: 224px;
+    
+}
+
+
+.highlights-img img{
+    width: 567px;
+    height: 427px;
+    padding-left: 60px;
+}
+#highlights-head{
+    font-weight: 700;
+    font-size: 48px;
+}
+.highlights-info{
+    width: 480px;
+    height: 309px;
+    
+}
+.highlights-details{
+    padding-bottom: 24px;
+}
+
+/* section 3 ends */
+
+
+/* section 4 starts */
+.last-container{
+    padding-top: 158px;
+    padding-left: 475px;
+}
+
+.logo img{
+    width: 483px;
+    height: 110px;
+}
+.fab{
+    color: gray;
+    padding: 14px;
+}
+.social-links{
+    margin-right: 416px;
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    font-weight: 400;
+}
+.foot-head{
+    margin-left: 142px;
+}
